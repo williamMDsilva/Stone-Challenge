@@ -1,0 +1,62 @@
+version: "3.9"
+
+services:
+  backend:
+    build:
+      context: .
+      target: build
+    restart: unless-stopped
+    volumes:
+      - ./:/app
+      - /app/node_modules
+    container_name: backend
+    ports:
+      - "127.0.0.1:4040:4040"
+    environment:
+      NODE_ENV: local
+    command: ./run-dev.sh
+    depends_on:
+      - db
+      - redis
+    networks:
+      - my-network
+
+  redis:
+    image: "bitnami/redis:latest"
+    restart: unless-stopped
+    container_name: redis
+    environment:
+      - ALLOW_EMPTY_PASSWORD=yes
+    volumes:
+      - redis:/bitnami/redis/data
+    ports:
+      - 6379:6379
+    networks:
+      - my-network
+
+  db:
+    image: postgres
+    container_name: db
+    restart: unless-stopped
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: stone_challenge
+    volumes:
+      - db:/var/lib/postgresql/data
+    networks:
+      - my-network
+
+networks:
+  my-network:
+    name: global-network
+
+volumes:
+  db:
+    driver: local
+  redis:
+    driver: local
+  backend:
+    driver: local

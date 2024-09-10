@@ -1,0 +1,17 @@
+POST http://localhost:3000/api/buy
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjdhMzZiMGM0LWFmMjUtNDRjYS05MGU5LTJhN2JhMDRmYzZkMyIsImVtYWlsIjoiZW1haWxAZW1haWwuY29tIiwicm9sZSI6IlVTRVIiLCJpYXQiOjE3MjU1Njk0MjB9.MT-stZJG-fggo1G9CNLyT2o2DCGgTosBdlOTzXHvVx8
+
+{
+    "clientId": "cc71e67e-8889-4e38-8fa0-8ad078a9bfaa",
+    "clientName": "Luke Skywalker 02",
+    "totalToPay": 670,
+    "creditCard": {
+        "cardNumber": "8977897897979",
+        "value": 7990,
+        "cvv": 789,
+        "cardHolderName": "Luke Skywalker",
+        "expDate": "12/24"
+    }
+}
+###

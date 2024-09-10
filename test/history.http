@@ -1,0 +1,11 @@
+GET http://localhost:3000/api/history
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjdhMzZiMGM0LWFmMjUtNDRjYS05MGU5LTJhN2JhMDRmYzZkMyIsImVtYWlsIjoiZW1haWxAZW1haWwuY29tIiwicm9sZSI6IlVTRVIiLCJpYXQiOjE3MjU1Njk0MjB9.MT-stZJG-fggo1G9CNLyT2o2DCGgTosBdlOTzXHvVx8
+
+###
+
+GET http://localhost:3000/api/history/7e655c6e-e8e5-4349-8348-e51e0ff3072e
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjdhMzZiMGM0LWFmMjUtNDRjYS05MGU5LTJhN2JhMDRmYzZkMyIsImVtYWlsIjoiZW1haWxAZW1haWwuY29tIiwicm9sZSI6IlVTRVIiLCJpYXQiOjE3MjU1Njk0MjB9.MT-stZJG-fggo1G9CNLyT2o2DCGgTosBdlOTzXHvVx8
+
+###

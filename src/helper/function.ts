@@ -1,0 +1,1 @@
+export const isEmpty = (obj: any) => !Object.entries(obj || {}).length && !obj?.length && !obj?.size

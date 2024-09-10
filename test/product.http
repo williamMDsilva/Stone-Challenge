@@ -1,0 +1,17 @@
+POST http://localhost:3000/api/product
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjdhMzZiMGM0LWFmMjUtNDRjYS05MGU5LTJhN2JhMDRmYzZkMyIsImVtYWlsIjoiZW1haWxAZW1haWwuY29tIiwicm9sZSI6IlVTRVIiLCJpYXQiOjE3MjU1NTQ2MDB9.KC5ZV0bOAzmBPlaoPAI7_QTQyeR5HpmVqhJwhNKmwXE
+
+{
+   "title":"Blusa do Imperio 01",
+   "price":7990,
+   "zipcode":"78993-000",
+   "seller":"João da Silva",
+   "thumbnailHd":"https://cdn.awsli.com.br/600x450/21/21351/produto/3853007/f66e8c63ab.jpg",
+   "date":"26/11/2015"
+}
+
+###
+GET http://localhost:3000/api/product
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjdhMzZiMGM0LWFmMjUtNDRjYS05MGU5LTJhN2JhMDRmYzZkMyIsImVtYWlsIjoiZW1haWxAZW1haWwuY29tIiwicm9sZSI6IlVTRVIiLCJpYXQiOjE3MjU1NTQ2MDB9.KC5ZV0bOAzmBPlaoPAI7_QTQyeR5HpmVqhJwhNKmwXE
+

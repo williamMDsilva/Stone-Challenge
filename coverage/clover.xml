@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1725634548750" clover="3.2.0">
+  <project timestamp="1725634548750" name="All files">
+    <metrics statements="214" coveredstatements="190" conditionals="26" coveredconditionals="20" methods="99" coveredmethods="90" elements="339" coveredelements="300" complexity="0" loc="214" ncloc="214" packages="17" files="20" classes="20"/>
+    <package name="prisma">
+      <metrics statements="6" coveredstatements="6" conditionals="3" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="prisma-client.ts" path="/Users/williammoreiradasilva/stone-challenge/prisma/prisma-client.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="3" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="6" type="stmt"/>
+        <line num="3" count="6" type="cond" truecount="1" falsecount="1"/>
+        <line num="6" count="6" type="stmt"/>
+        <line num="8" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="13" count="6" type="stmt"/>
+        <line num="17" count="6" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.domain.entity.product">
+      <metrics statements="16" coveredstatements="16" conditionals="0" coveredconditionals="0" methods="11" coveredmethods="11"/>
+      <file name="product.ts" path="/Users/williammoreiradasilva/stone-challenge/src/domain/entity/product/product.ts">
+        <metrics statements="16" coveredstatements="16" conditionals="0" coveredconditionals="0" methods="11" coveredmethods="11"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="12" count="8" type="stmt"/>
+        <line num="22" count="2" type="stmt"/>
+        <line num="34" count="6" type="stmt"/>
+        <line num="38" count="2" type="stmt"/>
+        <line num="40" count="2" type="stmt"/>
+        <line num="41" count="4" type="stmt"/>
+        <line num="43" count="4" type="stmt"/>
+        <line num="46" count="2" type="stmt"/>
+        <line num="50" count="3" type="stmt"/>
+        <line num="54" count="4" type="stmt"/>
+        <line num="58" count="4" type="stmt"/>
+        <line num="61" count="4" type="stmt"/>
+        <line num="64" count="4" type="stmt"/>
+        <line num="67" count="4" type="stmt"/>
+        <line num="70" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.domain.entity.transaction">
+      <metrics statements="37" coveredstatements="26" conditionals="0" coveredconditionals="0" methods="21" coveredmethods="18"/>
+      <file name="credit-card.ts" path="/Users/williammoreiradasilva/stone-challenge/src/domain/entity/transaction/credit-card.ts">
+        <metrics statements="14" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="7"/>
+        <line num="11" count="4" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="21" count="3" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="49" count="3" type="stmt"/>
+        <line num="52" count="1" type="stmt"/>
+        <line num="55" count="1" type="stmt"/>
+        <line num="58" count="1" type="stmt"/>
+        <line num="61" count="1" type="stmt"/>
+      </file>
+      <file name="transaction.ts" path="/Users/williammoreiradasilva/stone-challenge/src/domain/entity/transaction/transaction.ts">
+        <metrics statements="23" coveredstatements="18" conditionals="0" coveredconditionals="0" methods="12" coveredmethods="11"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="13" count="10" type="stmt"/>
+        <line num="21" count="2" type="stmt"/>
+        <line num="32" count="8" type="stmt"/>
+        <line num="33" count="8" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="49" count="8" type="stmt"/>
+        <line num="53" count="3" type="stmt"/>
+        <line num="55" count="3" type="stmt"/>
+        <line num="56" count="8" type="stmt"/>
+        <line num="58" count="8" type="stmt"/>
+        <line num="60" count="8" type="stmt"/>
+        <line num="63" count="3" type="stmt"/>
+        <line num="67" count="9" type="stmt"/>
+        <line num="71" count="12" type="stmt"/>
+        <line num="75" count="5" type="stmt"/>
+        <line num="79" count="11" type="stmt"/>
+        <line num="83" count="8" type="stmt"/>
+        <line num="87" count="10" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.domain.entity.user">
+      <metrics statements="14" coveredstatements="14" conditionals="3" coveredconditionals="3" methods="9" coveredmethods="9"/>
+      <file name="user.ts" path="/Users/williammoreiradasilva/stone-challenge/src/domain/entity/user/user.ts">
+        <metrics statements="14" coveredstatements="14" conditionals="3" coveredconditionals="3" methods="9" coveredmethods="9"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="15" count="3" type="stmt"/>
+        <line num="17" count="9" type="stmt"/>
+        <line num="18" count="9" type="stmt"/>
+        <line num="27" count="6" type="stmt"/>
+        <line num="38" count="3" type="stmt"/>
+        <line num="42" count="9" type="cond" truecount="3" falsecount="0"/>
+        <line num="43" count="2" type="stmt"/>
+        <line num="49" count="5" type="stmt"/>
+        <line num="53" count="6" type="stmt"/>
+        <line num="57" count="2" type="stmt"/>
+        <line num="61" count="3" type="stmt"/>
+        <line num="65" count="6" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.domain.exceptions">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="InvalidEntity.ts" path="/Users/williammoreiradasilva/stone-challenge/src/domain/exceptions/InvalidEntity.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.helper">
+      <metrics statements="1" coveredstatements="1" conditionals="13" coveredconditionals="11" methods="1" coveredmethods="1"/>
+      <file name="function.ts" path="/Users/williammoreiradasilva/stone-challenge/src/helper/function.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="13" coveredconditionals="11" methods="1" coveredmethods="1"/>
+        <line num="1" count="2" type="cond" truecount="11" falsecount="2"/>
+      </file>
+    </package>
+    <package name="src.infra.repository.prisma.product">
+      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+      <file name="product-repository.ts" path="/Users/williammoreiradasilva/stone-challenge/src/infra/repository/prisma/product/product-repository.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.infra.repository.prisma.transaction">
+      <metrics statements="21" coveredstatements="19" conditionals="2" coveredconditionals="2" methods="6" coveredmethods="5"/>
+      <file name="transaction-repository.ts" path="/Users/williammoreiradasilva/stone-challenge/src/infra/repository/prisma/transaction/transaction-repository.ts">
+        <metrics statements="21" coveredstatements="19" conditionals="2" coveredconditionals="2" methods="6" coveredmethods="5"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="15" count="3" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="34" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="43" count="1" type="stmt"/>
+        <line num="45" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="46" count="1" type="stmt"/>
+        <line num="52" count="1" type="stmt"/>
+        <line num="55" count="1" type="stmt"/>
+        <line num="59" count="0" type="stmt"/>
+        <line num="65" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.infra.repository.prisma.user">
+      <metrics statements="11" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="5"/>
+      <file name="user-repository.ts" path="/Users/williammoreiradasilva/stone-challenge/src/infra/repository/prisma/user/user-repository.ts">
+        <metrics statements="11" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="5"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="10" count="4" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="22" count="2" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="30" count="2" type="stmt"/>
+        <line num="36" count="2" type="stmt"/>
+        <line num="46" count="1" type="stmt"/>
+        <line num="52" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.infra.repository.redis.transaction">
+      <metrics statements="20" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="5"/>
+      <file name="redis-client-transaction.ts" path="/Users/williammoreiradasilva/stone-challenge/src/infra/repository/redis/transaction/redis-client-transaction.ts">
+        <metrics statements="20" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="5"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="37" count="2" type="stmt"/>
+        <line num="39" count="2" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="49" count="2" type="stmt"/>
+        <line num="53" count="2" type="stmt"/>
+        <line num="54" count="2" type="stmt"/>
+        <line num="56" count="2" type="stmt"/>
+        <line num="58" count="2" type="stmt"/>
+        <line num="62" count="0" type="stmt"/>
+        <line num="72" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.infra.service.password">
+      <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+      <file name="user-password-service.ts" path="/Users/williammoreiradasilva/stone-challenge/src/infra/service/password/user-password-service.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="14" count="4" type="stmt"/>
+        <line num="18" count="4" type="stmt"/>
+        <line num="22" count="4" type="stmt"/>
+        <line num="26" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.infra.service.session">
+      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+      <file name="user-token-service.ts" path="/Users/williammoreiradasilva/stone-challenge/src/infra/service/session/user-token-service.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="17" count="3" type="stmt"/>
+        <line num="18" count="3" type="stmt"/>
+        <line num="21" count="3" type="stmt"/>
+        <line num="25" count="3" type="stmt"/>
+        <line num="37" count="3" type="stmt"/>
+        <line num="41" count="2" type="stmt"/>
+        <line num="43" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.infra.service.user">
+      <metrics statements="5" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="user-domain-service.ts" path="/Users/williammoreiradasilva/stone-challenge/src/infra/service/user/user-domain-service.ts">
+        <metrics statements="5" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.usecase.buy">
+      <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <file name="new-buy-usecase.ts" path="/Users/williammoreiradasilva/stone-challenge/src/usecase/buy/new-buy-usecase.ts">
+        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="48" count="1" type="stmt"/>
+        <line num="50" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.usecase.history">
+      <metrics statements="13" coveredstatements="13" conditionals="3" coveredconditionals="2" methods="5" coveredmethods="5"/>
+      <file name="fetch-history-usecase.ts" path="/Users/williammoreiradasilva/stone-challenge/src/usecase/history/fetch-history-usecase.ts">
+        <metrics statements="13" coveredstatements="13" conditionals="3" coveredconditionals="2" methods="5" coveredmethods="5"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="25" count="2" type="stmt"/>
+        <line num="32" count="2" type="stmt"/>
+        <line num="38" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="42" count="4" type="stmt"/>
+        <line num="51" count="1" type="stmt"/>
+        <line num="56" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="58" count="1" type="stmt"/>
+        <line num="59" count="2" type="stmt"/>
+        <line num="68" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.usecase.product">
+      <metrics statements="14" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="7"/>
+      <file name="create-product-usecase.ts" path="/Users/williammoreiradasilva/stone-challenge/src/usecase/product/create-product-usecase.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="43" count="1" type="stmt"/>
+      </file>
+      <file name="fetch-product-usecase.ts" path="/Users/williammoreiradasilva/stone-challenge/src/usecase/product/fetch-product-usecase.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="45" count="1" type="stmt"/>
+        <line num="47" count="1" type="stmt"/>
+        <line num="48" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.usecase.session">
+      <metrics statements="20" coveredstatements="19" conditionals="2" coveredconditionals="0" methods="6" coveredmethods="6"/>
+      <file name="check-session-usecase.ts" path="/Users/williammoreiradasilva/stone-challenge/src/usecase/session/check-session-usecase.ts">
+        <metrics statements="9" coveredstatements="9" conditionals="1" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="38" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="43" count="1" type="stmt"/>
+        <line num="45" count="1" type="stmt"/>
+        <line num="51" count="1" type="stmt"/>
+      </file>
+      <file name="login-usecase.ts" path="/Users/williammoreiradasilva/stone-challenge/src/usecase/session/login-usecase.ts">
+        <metrics statements="11" coveredstatements="10" conditionals="1" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="41" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="44" count="1" type="stmt"/>
+        <line num="50" count="1" type="stmt"/>
+        <line num="52" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

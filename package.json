@@ -1,0 +1,46 @@
+{
+  "name": "stone-challenge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start:dev": "ts-node-dev src/main.ts --host 0.0.0.0",
+    "prisma:prd": "yarn prisma migrate deploy",
+    "prisma:dev": "yarn prisma migrate dev && yarn prisma generate",
+    "start": "NODE_ENV=production npm run build && node build/src/main.js --host 0.0.0.0",
+    "build": "rimraf ./build && tsc",
+    "test": "jest",
+    "seed": "NODE_ENV=test ts-node prisma/seed/seed.ts",
+    "test:setup": "NODE_ENV=test prisma migrate dev && prisma generate",
+    "cover": "jest --collectCoverage",
+    "postinstall": "prisma generate --schema=prisma/schema.prisma"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/ioredis": "^5.0.0",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^22.5.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.18.0",
+    "@types/bcrypt": "^5.0.2",
+    "@types/jsonwebtoken": "^9.0.6",
+    "prisma": "^5.18.0",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "class-validator": "^0.14.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "ioredis": "^5.4.1",
+    "jsonwebtoken": "^9.0.2",
+    "redis": "^4.7.0",
+    "rimraf": "^6.0.1",
+    "ts-node-dev": "^2.0.0",
+    "tsoa": "^6.4.0",
+    "typescript-class-validator": "^0.0.6"
+  }
+}
