@@ -102,8 +102,8 @@ Before you begin, ensure you have met the following requirements:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/your-repo.git
-   cd your-repo
+   git clone https://github.com/williamMDsilva/Stone-Challenge
+   cd Stone-Challenge
    ```
 
 2. Install dependencies:
