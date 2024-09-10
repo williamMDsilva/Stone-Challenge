@@ -22,7 +22,7 @@ This repository has the stone challenge for backend. The solution is based on on
 
 ## Documentation
 
-**Documentation of each endoint in ./docs/**
+**Documentation of each endpoint in [./docs](./docs)**
 
 ### folder struct
 
